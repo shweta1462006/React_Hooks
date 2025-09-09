@@ -1,0 +1,18 @@
+/* Animate.css can be removed if using custom animation */
+
+.slide-form {
+  animation: slideInFromRight 1s ease-out forwards;
+  opacity: 0; /* Start hidden, animation will fade in */
+}
+
+/* Slide-in from right animation */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
