@@ -3,21 +3,26 @@ import Usestate from './Hooks/Usestate'
 // import Usetatehtml from './Hooks/Usetatehtml'
 import Form from './Hooks/Form'
 import Useref from './Hooks/Useref'
-import Animation from './Hooks/Animation'
+import Conversion from './Practice/Conversion'
 
 
-import Stopwatch from './Hooks/Stopwatch'
-import FR4 from './Hooks/FR4'
+import Stopwatch from './Practice/Stopwatch'
+import FR4 from './Practice/FR4'
+import Stopwatch2 from './Hooks/Stopwatch2'
 
 export default function App() {
   return (
     <div>
-      <Usestate/>
+      {/* <Usestate/>
             <Form/>
             <FR4/>
             <Useref/>
             <Stopwatch/>
-            <Animation/>
+            <Animation/> */}
+            {/* <FR4/> */}
+            {/* <Stopwatch2/> */}
+            <Conversion/>
+            
 
     </div>
   )

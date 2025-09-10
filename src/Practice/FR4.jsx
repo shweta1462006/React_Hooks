@@ -21,6 +21,7 @@ export default function FR4() {
               <label>Enter your email:</label>
         <input type='email' name='email' onChange={handle} ></input><br></br>
         <button>Submmit</button>
+        <p>{user.username}</p>
 
       </form>
     </div>
